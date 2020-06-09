@@ -4,13 +4,13 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class BikeRideTest {
+class BikeRideTwoTest {
     @Test
     public void shouldTakeBIkeForARide(){
         Bicycle bicycle = new Bicycle();
-        BikeRide bikeRide = new BikeRide(bicycle);
-        bikeRide.ride();
-        assertEquals(14, bicycle.currentSpeed());
+        BikeRideTwo bikeRideTwo = new BikeRideTwo(bicycle);
+        bikeRideTwo.ride(bicycle);
+        assertEquals(28, bicycle.currentSpeed());
     }
 
 }

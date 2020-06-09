@@ -6,13 +6,13 @@ import bicycles.BicycleOne;
 public class MountainBike extends BicycleBase {
 
 
+    @Override
     public void accelerate() {
-        changeSpeed(5);
+        speed += 5;
     }
 
+    @Override
     public void brake() {
-        changeSpeed(-3);
+        speed -= 3;
     }
-
 }
-

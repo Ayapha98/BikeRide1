@@ -1,17 +1,15 @@
 package models;
 
 import bicycles.BicycleBase;
-import bicycles.BicycleOne;
 
-public class RoadBike extends BicycleBase {
-
+public class Tandem extends BicycleBase {
     @Override
     public void accelerate() {
-        speed += 11;
+        speed += 12;
     }
 
     @Override
     public void brake() {
-        speed -= 4;
+        speed -= 7;
     }
 }
