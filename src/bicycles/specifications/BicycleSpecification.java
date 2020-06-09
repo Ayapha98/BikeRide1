@@ -1,6 +1,6 @@
-package bicycles;
+package bicycles.specifications;
 
-import models.BicycleType;
+import bicycles.models.BicycleType;
 
 
 public class BicycleSpecification {

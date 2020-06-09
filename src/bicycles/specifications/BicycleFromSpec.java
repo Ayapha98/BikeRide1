@@ -1,6 +1,7 @@
-package bicycles;
+package bicycles.specifications;
 
-import models.BicycleType;
+import bicycles.interfaces.BicycleBase;
+import bicycles.models.BicycleType;
 
 public class BicycleFromSpec extends BicycleBase {
 

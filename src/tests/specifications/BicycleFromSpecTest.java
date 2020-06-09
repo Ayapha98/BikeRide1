@@ -1,6 +1,8 @@
-package bicycles;
+package tests.specifications;
 
-import models.BicycleType;
+import bicycles.specifications.BicycleFromSpec;
+import bicycles.specifications.BicycleSpecification;
+import bicycles.models.BicycleType;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

@@ -1,6 +1,7 @@
-package models;
+package tests.models;
 
-import bicycles.BicycleOne;
+import bicycles.interfaces.BicycleOne;
+import bicycles.models.Tandem;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

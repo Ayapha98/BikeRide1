@@ -1,4 +1,4 @@
-package bicycles;
+package bicycles.interfaces;
 
 public class Bicycle {
     private int speed;

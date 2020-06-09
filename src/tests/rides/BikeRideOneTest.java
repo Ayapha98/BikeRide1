@@ -1,5 +1,7 @@
-package bicycles;
+package tests.rides;
 
+import bicycles.interfaces.Bicycle;
+import bicycles.rides.BikeRideOne;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

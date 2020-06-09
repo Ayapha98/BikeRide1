@@ -2,29 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7f1b273-d8a7-4b36-ae54-6b4501f70770" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bicycles/BicycleFromSpec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bicycles/BicycleFromSpecTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bicycles/BicycleSpecification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bicycles/BicycleSpecificationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bicycles/BikeRideOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bicycles/BikeRideThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bicycles/BikeRideThreeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bicycles/BikeRideTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bicycles/BikeRideTwoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/BicycleType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Tandem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide2/bicycles/BicycleBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeRide2/bicycles/BicycleBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide2/bicycles/BikeRide.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeRide2/bicycles/BikeRide.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide2/bicycles/BikeRideTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide2/models/MountainBike.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeRide2/models/MountainBike.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide2/models/RoadBike.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeRide2/models/RoadBike.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/BicycleBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/BicycleBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/BikeRide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/BikeRide.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/BikeRideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/BikeRideOneTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/MountainBike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/MountainBike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/RoadBike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/RoadBike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bicycles/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/interfaces/Bicycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bicycles/BicycleBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/interfaces/BicycleBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bicycles/BicycleFromSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/specifications/BicycleFromSpec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bicycles/BicycleFromSpecTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/specifications/BicycleFromSpecTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bicycles/BicycleOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/interfaces/BicycleOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bicycles/BicycleSpecification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/specifications/BicycleSpecification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bicycles/BicycleSpecificationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/specifications/BicycleSpecificationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bicycles/BicycleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/models/BicycleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bicycles/BikeRide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/rides/BikeRide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bicycles/BikeRideOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/rides/BikeRideOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bicycles/BikeRideOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/rides/BikeRideOneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bicycles/BikeRideThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/rides/BikeRideThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bicycles/BikeRideThreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/rides/BikeRideThreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bicycles/BikeRideTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/rides/BikeRideTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bicycles/BikeRideTwoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/rides/BikeRideTwoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/BicycleType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/models/BicycleType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/MountainBike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/models/MountainBike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/MountainBikeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/models/MountainBikeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/RoadBike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/models/RoadBike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/RoadBikeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/models/RoadBikeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Tandem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/models/Tandem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/TandemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/models/TandemTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +35,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -67,6 +67,13 @@
       <recent name="bicycles" />
       <recent name="models" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="tests.models" />
+      <recent name="tests.rides" />
+      <recent name="tests.specifications" />
+      <recent name="tests" />
+      <recent name="bicycles.Rides" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -79,12 +86,12 @@
       <module name="BikeRide2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bicycles.*" />
+          <option name="PATTERN" value="bicycles.interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bicycles" />
-      <option name="MAIN_CLASS_NAME" value="bicycles.BicycleFromSpecTest" />
+      <option name="PACKAGE_NAME" value="tests.specifications" />
+      <option name="MAIN_CLASS_NAME" value="tests.specifications.BicycleFromSpecTest" />
       <option name="METHOD_NAME" value="shouldPerformMultipleBrakeAndAccelerateOnMountainBike" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -95,12 +102,12 @@
       <module name="BikeRide2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bicycles.*" />
+          <option name="PATTERN" value="bicycles.interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bicycles" />
-      <option name="MAIN_CLASS_NAME" value="bicycles.BicycleFromSpecTest" />
+      <option name="PACKAGE_NAME" value="tests.specifications" />
+      <option name="MAIN_CLASS_NAME" value="tests.specifications.BicycleFromSpecTest" />
       <option name="METHOD_NAME" value="shouldStopAMountainBike" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -111,12 +118,12 @@
       <module name="BikeRide2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bicycles.*" />
+          <option name="PATTERN" value="bicycles.interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bicycles" />
-      <option name="MAIN_CLASS_NAME" value="bicycles.BicycleSpecificationTest" />
+      <option name="PACKAGE_NAME" value="tests.specifications" />
+      <option name="MAIN_CLASS_NAME" value="tests.specifications.BicycleSpecificationTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,12 +133,12 @@
       <module name="BikeRide2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bicycles.*" />
+          <option name="PATTERN" value="bicycles.interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bicycles" />
-      <option name="MAIN_CLASS_NAME" value="bicycles.BicycleSpecificationTest" />
+      <option name="PACKAGE_NAME" value="tests.specifications" />
+      <option name="MAIN_CLASS_NAME" value="tests.specifications.BicycleSpecificationTest" />
       <option name="METHOD_NAME" value="shouldGetAccelerationSpeedOfAMountainBike" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -142,12 +149,12 @@
       <module name="BikeRide2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bicycles.*" />
+          <option name="PATTERN" value="bicycles.interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bicycles" />
-      <option name="MAIN_CLASS_NAME" value="bicycles.BicycleSpecificationTest" />
+      <option name="PACKAGE_NAME" value="tests.specifications" />
+      <option name="MAIN_CLASS_NAME" value="tests.specifications.BicycleSpecificationTest" />
       <option name="METHOD_NAME" value="shouldGetBrakeSpeedOfARoadBike" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -186,14 +193,22 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="524" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1591698532659" />
+    <state x="469" y="283" width="494" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1591731417767">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="469" y="283" width="494" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/67.27.1299.741@67.27.1299.741" timestamp="1591731417767" />
+    <state x="469" y="304" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1591729351028">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="469" y="304" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/67.27.1299.741@67.27.1299.741" timestamp="1591729351028" />
     <state x="456" y="27" width="510" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590499114468">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="456" y="27" width="510" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1299.741@67.27.1299.741" timestamp="1590499114468" />
-    <state x="449" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590484203162">
+    <state x="449" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591729278174">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="449" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1299.741@67.27.1299.741" timestamp="1590484203162" />
+    <state x="449" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1299.741@67.27.1299.741" timestamp="1591729278174" />
     <state x="449" y="145" width="524" height="502" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1590588338151">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -234,10 +249,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="523" y="333" width="377" height="126" key="ReplaceDuplicatesPrompt/67.27.1299.741@67.27.1299.741" timestamp="1589815783060" />
-    <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1591464945188">
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1591730468429">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1591464945188" />
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1591730468429" />
     <state x="388" y="292" width="646" height="208" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1589448883281">
       <screen x="67" y="27" width="1299" height="741" />
     </state>

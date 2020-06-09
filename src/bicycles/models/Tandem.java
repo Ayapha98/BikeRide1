@@ -1,6 +1,6 @@
-package models;
+package bicycles.models;
 
-import bicycles.BicycleBase;
+import bicycles.interfaces.BicycleBase;
 
 public class Tandem extends BicycleBase {
     @Override

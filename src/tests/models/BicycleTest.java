@@ -1,58 +1,58 @@
-package models;
+package tests.models;
 
-import bicycles.Bicycle;
-import bicycles.BicycleOne;
+import bicycles.interfaces.Bicycle;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
-class RoadBikeTest {
-
+class BicycleTest {
 
     @Test
     public void shouldAccelerate() {
-        BicycleOne bicycle = new RoadBike();
+
+        Bicycle bicycle = new Bicycle();
         bicycle.accelerate();
-        assertEquals(11, bicycle.currentSpeed());
+        assertEquals(5, bicycle.currentSpeed());
     }
 
     @Test
     public void shouldAccelerateAndBrakeCorrect() {
-        BicycleOne bicycle = new RoadBike();
+
+        Bicycle bicycle = new Bicycle();
         bicycle.accelerate();
         bicycle.brake();
-        assertEquals(7, bicycle.currentSpeed());
+        assertEquals(2, bicycle.currentSpeed());
 
     }
 
     @Test
     public void shouldDoMultipleAcceleratesCorrectly() {
 
-        BicycleOne bicycle = new RoadBike();
+        Bicycle bicycle = new Bicycle();
         bicycle.accelerate();
         bicycle.accelerate();
         bicycle.accelerate();
-        assertEquals(33, bicycle.currentSpeed());
+        assertEquals(15, bicycle.currentSpeed());
 
     }
 
     @Test
     public void shouldDoMultipleAccelerateAndBrakesCorrectly() {
 
-        BicycleOne bicycle = new RoadBike();
+        Bicycle bicycle = new Bicycle();
         bicycle.accelerate();
         bicycle.brake();
         bicycle.accelerate();
         bicycle.brake();
         bicycle.brake();
-        assertEquals(10, bicycle.currentSpeed());
+        assertEquals(1, bicycle.currentSpeed());
 
     }
 
     @Test
     public void shouldBeAbleToStop() {
 
-        BicycleOne bicycle = new RoadBike();
+        Bicycle bicycle = new Bicycle();
         bicycle.accelerate();
         bicycle.brake();
         bicycle.accelerate();
