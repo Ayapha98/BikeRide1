@@ -1,6 +1,6 @@
 package tests.models;
 
-import bicycles.interfaces.BicycleOne;
+import bicycles.interfaces.Bicycle;
 import bicycles.models.RoadBike;
 import org.junit.jupiter.api.Test;
 
@@ -11,14 +11,14 @@ class RoadBikeTest {
 
     @Test
     public void shouldAccelerate() {
-        BicycleOne bicycle = new RoadBike();
+        Bicycle bicycle = new RoadBike();
         bicycle.accelerate();
         assertEquals(11, bicycle.currentSpeed());
     }
 
     @Test
     public void shouldAccelerateAndBrakeCorrect() {
-        BicycleOne bicycle = new RoadBike();
+        Bicycle bicycle = new RoadBike();
         bicycle.accelerate();
         bicycle.brake();
         assertEquals(7, bicycle.currentSpeed());
@@ -28,7 +28,7 @@ class RoadBikeTest {
     @Test
     public void shouldDoMultipleAcceleratesCorrectly() {
 
-        BicycleOne bicycle = new RoadBike();
+        Bicycle bicycle = new RoadBike();
         bicycle.accelerate();
         bicycle.accelerate();
         bicycle.accelerate();
@@ -39,7 +39,7 @@ class RoadBikeTest {
     @Test
     public void shouldDoMultipleAccelerateAndBrakesCorrectly() {
 
-        BicycleOne bicycle = new RoadBike();
+        Bicycle bicycle = new RoadBike();
         bicycle.accelerate();
         bicycle.brake();
         bicycle.accelerate();
@@ -52,7 +52,7 @@ class RoadBikeTest {
     @Test
     public void shouldBeAbleToStop() {
 
-        BicycleOne bicycle = new RoadBike();
+        Bicycle bicycle = new RoadBike();
         bicycle.accelerate();
         bicycle.brake();
         bicycle.accelerate();

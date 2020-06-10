@@ -1,25 +1,12 @@
 package bicycles.interfaces;
 
-public class Bicycle {
-    private int speed;
+public interface Bicycle {
 
-    public void accelerate(){
-        speed +=5;
-    }
+    void accelerate();
 
-    public void brake(){
-        if (speed > 3) {
-            speed -= 3;
-        } else {
-            speed = 0;
-        }
-    }
+    void brake();
 
-    public int currentSpeed(){
-        return speed;
-    }
+    int currentSpeed();
 
-    public void stop(){
-        speed =0;
-    }
+    void stop();
 }

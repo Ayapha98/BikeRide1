@@ -1,6 +1,6 @@
 package tests.models;
 
-import bicycles.interfaces.BicycleOne;
+import bicycles.interfaces.Bicycle;
 import bicycles.models.Tandem;
 import org.junit.jupiter.api.Test;
 
@@ -10,7 +10,7 @@ class TandemTest {
     @Test
     public void shouldAccelerate() {
 
-        BicycleOne bicycle = new Tandem();
+        Bicycle bicycle = new Tandem();
         bicycle.accelerate();
         assertEquals(12, bicycle.currentSpeed());
     }
@@ -18,7 +18,7 @@ class TandemTest {
     @Test
     public void shouldAccelerateAndBrakeCorrect() {
 
-        BicycleOne bicycle = new Tandem();
+        Bicycle bicycle = new Tandem();
         bicycle.accelerate();
         bicycle.brake();
         assertEquals(5, bicycle.currentSpeed());

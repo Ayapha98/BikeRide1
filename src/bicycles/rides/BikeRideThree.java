@@ -4,28 +4,25 @@ import bicycles.interfaces.Bicycle;
 
 public class BikeRideThree implements BikeRide {
 
-    private final Bicycle bicycle;
-    private int speed;
+    Bicycle bicycle;
 
-    public BikeRideThree(Bicycle bicycle) {
+    public BikeRideThree(Bicycle bicycle){
         this.bicycle = bicycle;
     }
 
-    public int currentSpeed() {
-        return speed;
-    }
-
-    @Override
-    public void ride(Bicycle bicycle) {
-
+    public void ride(Bicycle bicycle){
         this.bicycle.accelerate();
         this.bicycle.accelerate();
         this.bicycle.accelerate();
         this.bicycle.accelerate();
         this.bicycle.accelerate();
         this.bicycle.brake();
-        this.bicycle.accelerate();
         this.bicycle.brake();
-
+        this.bicycle.accelerate();
     }
+
+    public int currentSpeed(){
+        return this.bicycle.currentSpeed();
+    }
+
 }

@@ -1,7 +1,7 @@
 package tests.models;
 
 
-import bicycles.interfaces.BicycleOne;
+import bicycles.interfaces.Bicycle;
 import bicycles.models.MountainBike;
 import org.junit.jupiter.api.Test;
 
@@ -11,7 +11,7 @@ class MountainBikeTest{
     @Test
     public void shouldAccelerate() {
 
-        BicycleOne bicycle = new MountainBike();
+        Bicycle bicycle = new MountainBike();
         bicycle.accelerate();
         assertEquals(5, bicycle.currentSpeed());
     }
@@ -19,7 +19,7 @@ class MountainBikeTest{
     @Test
     public void shouldAccelerateAndBrakeCorrect() {
 
-        BicycleOne bicycle = new MountainBike();
+        Bicycle bicycle = new MountainBike();
         bicycle.accelerate();
         bicycle.brake();
         assertEquals(2, bicycle.currentSpeed());
@@ -29,7 +29,7 @@ class MountainBikeTest{
     @Test
     public void shouldDoMultipleAcceleratesCorrectly() {
 
-        BicycleOne bicycle = new MountainBike();
+        Bicycle bicycle = new MountainBike();
         bicycle.accelerate();
         bicycle.accelerate();
         bicycle.accelerate();
@@ -40,7 +40,7 @@ class MountainBikeTest{
     @Test
     public void shouldDoMultipleAccelerateAndBrakesCorrectly() {
 
-        BicycleOne bicycle = new MountainBike();
+        Bicycle bicycle = new MountainBike();
         bicycle.accelerate();
         bicycle.brake();
         bicycle.accelerate();
@@ -53,7 +53,7 @@ class MountainBikeTest{
     @Test
     public void shouldBeAbleToStop() {
 
-        BicycleOne bicycle = new MountainBike();
+        Bicycle bicycle = new MountainBike();
         bicycle.accelerate();
         bicycle.brake();
         bicycle.accelerate();

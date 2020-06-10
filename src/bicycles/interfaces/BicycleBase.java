@@ -2,7 +2,7 @@ package bicycles.interfaces;
 
 import bicycles.models.BicycleType;
 
-public abstract class BicycleBase implements BicycleOne {
+public abstract class BicycleBase implements Bicycle {
 
 
     protected  int speed = 0;
